@@ -1,0 +1,26 @@
+.card{
+    border-radius: 20px;
+    border: solid 3px rgba(90, 90, 90, 0.637);
+    width: 300px;
+    height: 420px;
+}
+
+.beer-image{
+    height: 350px;
+    width: 100%;
+    object-fit: fill;
+}
+
+.label{
+    text-align: center;
+
+}
+
+.description{
+    text-align: center;
+}
+
+.card:hover{
+    transform: translateY(20px);
+    transition: 0.7s ease-out;
+}

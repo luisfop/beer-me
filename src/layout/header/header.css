@@ -1,0 +1,13 @@
+.navbar {
+  background-color: #ffc608;
+  height: 60px;
+}
+
+.nav--logo {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 3px;
+  width: 130px;
+  color: black;
+  font-weight: 500;
+}

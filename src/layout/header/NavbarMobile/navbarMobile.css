@@ -1,0 +1,31 @@
+.mobile-burger {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-end;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.links-list {
+  width: 100%;
+  background-color: #ffc608;
+}
+
+.item:hover {
+  background-color: #df4a0c;
+  cursor: pointer;
+}
+
+.link-mobile {
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .mobile-burger {
+    display: inherit;
+  }
+}
