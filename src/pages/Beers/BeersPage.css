@@ -1,7 +1,32 @@
-.form--input{
-    background-color: white;
+.beers--page{
+    width: 100vw;
+    height: 100vh;
 }
 
-.beers-page{
+.beers--page h1{
+    color: white;
+    margin-top: 40px;
+}
+
+.search{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.form--input{
+background-color: rgb(233, 218, 88);
+border-radius: 20px;
+width: 100%;
+}
+
+.beer--display{}
+
+.display{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
     
 }
