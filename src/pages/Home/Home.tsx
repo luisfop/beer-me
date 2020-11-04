@@ -2,11 +2,11 @@ import React from "react";
 
 import "./Home.css";
 
-import Banner from "../layout/Banner/banner";
-import CardComponent from "../components/CardComponent/CardComponent";
+import Banner from "../../layout/Banner/banner";
+import CardComponent from "../../components/CardComponent/CardComponent";
 
 import { Link } from "react-router-dom";
-import { Beers } from "../mock/beers";
+import { Beers } from "../../mock/beers";
 
 const Home = () => {
   const homeCards = Beers.map(beer => (
@@ -29,7 +29,7 @@ const Home = () => {
         <h3 className="title">Check out our beers</h3>
 
         <div className="beer-container">
-          <section className="beers">{homeCards.slice(0, 3)}</section>
+          <div className="beers">{homeCards.slice(0, 3)}</div>
         </div>
       </section>
     </div>

@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Header from "./layout/header/header";
 import Beers from './pages/Beers/Beers';
 import Contact from './pages/Contact/Contact';
