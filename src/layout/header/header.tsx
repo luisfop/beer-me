@@ -10,7 +10,7 @@ import NavbarMobile from "./NavbarMobile/navbarMobile";
 
 const Header = () => {
   return (
-    <AppBar position="fixed">
+    <AppBar position="static">
       <Toolbar className="navbar">
         <h3 className="nav--logo">beer . me</h3>
         <Navbar />

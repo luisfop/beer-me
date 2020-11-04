@@ -1,6 +1,7 @@
 .navbar {
   background-color: #ffc608;
   height: 60px;
+  top: 0;
 }
 
 .nav--logo {
