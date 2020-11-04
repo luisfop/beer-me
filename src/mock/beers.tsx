@@ -32,5 +32,21 @@ export const Beers: BeerType[] = [
     alcool: 5.3,
     ibu: 5,
     price: 22.0
+  },
+  {
+    name: "Corona",
+    image: 'https://images.unsplash.com/photo-1549231482-5cf39d19fba4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2466&q=80',
+    description: "Not the virus!! =P",
+    alcool: 4.3,
+    ibu: 4,
+    price: 10.0
+  },
+  {
+    name: "Ginger Beer",
+    image: 'https://images.unsplash.com/photo-1551797802-f2dd1ec0033e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80',
+    description: "Naturally flavored !",
+    alcool: 5.7,
+    ibu: 5,
+    price: 13.0
   }
 ];

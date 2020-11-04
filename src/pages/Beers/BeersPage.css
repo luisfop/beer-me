@@ -1,32 +1,42 @@
-.beers--page{
-    width: 100vw;
-    height: 100vh;
+.beers--page {
+  width: 100vw;
+  height: 100vh;
 }
 
-.beers--page h1{
-    color: white;
-    margin-top: 40px;
+.beers--page h1 {
+  color: white;
+  margin-top: 40px;
 }
 
-.search{
-    width: 100vw;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    place-items: center;
+.search {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
 }
 
-.form--input{
-background-color: rgb(233, 218, 88);
-border-radius: 20px;
-width: 100%;
+.form--input {
+  background-color: rgb(241, 229, 115);
+  border-radius: 20px;
+  width: 100%;
 }
 
-.beer--display{}
+.beer--display {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right,  rgb(233, 224, 146), rgba(255,0,0,0));
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 5px;
+}
 
-.display{
-    display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    
+.display {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 10px;
+  padding-top: 30px;
 }
