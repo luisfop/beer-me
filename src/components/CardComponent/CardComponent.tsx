@@ -31,17 +31,13 @@ const CardComponent: React.FC<BeerType> = ({
           >
             {name}
           </Typography>
-          <Typography
-            variant="body2"
-            color="textSecondary"
-            component="p"
-            className="description"
-          >
-            {description}
-            <p>IBU: {ibu}</p>
-            <p>Alcool %: {alcool}</p>
-            <p>{`Price: ${price},00`}</p>
-          </Typography>
+
+          <ul className="card--production--list">
+            <li>{description}</li>
+            <li>{`IBU: ${ibu}`}</li>
+            <li>{`Alcool %: ${alcool}`}</li>
+            <li>{price ? <p>{`Price: R$${price}`}</p> : null}</li>
+          </ul>
         </CardContent>
       </CardActionArea>
     </Card>

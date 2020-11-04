@@ -12,10 +12,9 @@ const Home = () => {
   const homeCards = Beers.map(beer => (
     <Link to="/products">
       <CardComponent
+        key={beer.name}
         name={beer.name}
         image={beer.image}
-        description={beer.description}
-        price={beer.price}
         ibu={beer.ibu}
         alcool={beer.alcool}
       />
