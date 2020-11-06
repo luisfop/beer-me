@@ -9,7 +9,7 @@
 }
 
 .search {
-  width: 100vw;
+  width: 30%;
   height: 300px;
   display: flex;
   align-items: center;
@@ -25,18 +25,19 @@
 
 .beer--display {
   width: 90%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  background-image: linear-gradient(to right,  rgb(233, 224, 146), rgba(255,0,0,0));
-  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(192, 192, 192),
+    rgba(255, 0, 0, 0)
+  );
   margin: 0 auto;
   border-radius: 5px;
+  padding: 0px 10px;
 }
 
 .display {
-  display: grid;
-  grid-template-columns: 1fr 1fr auto;
-  gap: 10px;
-  padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) auto;
+    padding-top: 23px;
+    grid-row-gap: 30px;
 }
