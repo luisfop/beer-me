@@ -41,3 +41,16 @@
     padding-top: 23px;
     grid-row-gap: 30px;
 }
+
+@media (max-width: 1270px){
+  .beer--display{
+    background-image: unset;
+    width: 100%;
+  }
+
+  .display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
